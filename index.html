@@ -4,15 +4,20 @@
     <title>公布欄</title>
     <style>
         .noticeboard {
-            background-color: #008000;  /* 綠色底 */
-            color: white;  /* 文字顏色 */
-            padding: 20px;  
-            text-align: center;  
-            border: 5px solid black;  /* 添加黑色邊框 */
+            background-color: #008000; /* 綠色底 */
+            color: white; /* 文字顏色 */
+            margin: 20px; /* 修改為 margin 來調整間距 */
+            border: 5px solid black; /* 添加黑色邊框 */
         }
 
         ul {
-            list-style-type: none;  /* 移除點狀符號 */
+            list-style-type: none; /* 移除點狀符號 */
+            margin: 0; /* 加入這一行來移除預設的間距 */
+            padding: 0; /* 加入這一行來移除預設的間距 */
+        }
+
+        li {
+            margin-left: 20px; /* 調整清單項目的左側間距 */
         }
     </style>
 </head>
